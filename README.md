@@ -1,10 +1,22 @@
 # jsToolTipFilter
 
+## project description 
+
+we want to display the content from an iframe widget within a pre-exiting javascript controled image map tooltip script.
+
+you can see the example of the image map tool tip script (the map with the colored shapes on it) and the iframe widget (the real estate listings) here:
+
+http://104.236.52.68/
+
+as you can see, within the tooltip content of each tooltip are some json values,
+
+we want to use those json values to fetch the html content displayed on the screen within the iframe widget, filter it(using the specific values for each tooltip), and display it witin each tool tip containing json values. 
+
+
 ## project goals
 
-- use the json inputed into each tool tip to filter the content from the appfolio widget and inject it into the tooltip
-
-### for example :
+- use the json values within each "tooltip-content" to filter the content from the appfolio widget(iframe on the page) and copy it into each tooltip
+- use an overlay and "loading" spinner to hide the page content from the user until the the page with the iframe data loads, then write html copied from the iframe and replace the "tooltip_content" in the image map script
 
 the tool tip containing :
 `
