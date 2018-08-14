@@ -16,7 +16,7 @@ we want to use those json values to fetch the html content displayed on the scre
 ## project goals
 
 - use the json values within each "tooltip-content" to filter the content from the appfolio widget(iframe on the page) and copy it into each tooltip
-- use an overlay and "loading" spinner to hide the page content from the user until the the page with the iframe data loads, then write html copied from the iframe and replace the "tooltip_content" in the image map script
+- use an overlay and "loading" spinner to hide the page content from the user until the the page with the iframe data loads, then write html copied from the iframe and replace the "tooltip_content" in the image map script (the image map script is in the repo)
 
 the tool tip containing :
 `
