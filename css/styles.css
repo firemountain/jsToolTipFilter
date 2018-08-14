@@ -1,0 +1,46 @@
+#mainMap {
+  width: 100%;
+
+}
+
+
+#text1 {
+  position: absolute;
+      top: 30px;
+      left: 37px;
+      z-index: 1;
+      width: 273px;
+}
+
+#cornerOverlay {
+    /*width: 100em;*/
+    /*height: 60em;*/
+    border: 4px solid #ccc;
+    background-color: #fff;
+    position: relative;
+
+
+}
+
+#cornerOverlay::before,
+#cornerOverlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#cornerOverlay::before {
+    border-width: 10.5em;
+    border-left-color: #ccc;
+    border-top-color: #ccc;
+}
+
+#cornerOverlay::after {
+    border-radius: 0.4em;
+    border-width: 10.35em;
+    border-left-color: #0c0;
+    border-top-color: #0c0;
+}
